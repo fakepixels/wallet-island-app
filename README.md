@@ -60,7 +60,7 @@ yarn dev
 - **Framework**: Next.js 13
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Web3**: OnchainKit, Coinbase Wallet
+- **Onchain**: OnchainKit, Coinbase Wallet, Base
 - **Animations**: Custom Tailwind animations
 - **Development**: ESLint, Prettier
 
@@ -92,7 +92,7 @@ wallet-island-app/
 
 - The app uses modern React features and hooks
 - Tailwind CSS is used for styling with custom animations
-- OnchainKit provides Web3 functionality
+- OnchainKit provides onchain functionality
 - The design focuses on elegance and simplicity
 
 ## 🤝 Contributing
