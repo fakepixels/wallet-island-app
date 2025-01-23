@@ -1,10 +1,32 @@
 "use client";
 
 import { WalletIsland } from "@coinbase/onchainkit/wallet";
+import FundCardComponents from "./components/Fund";
+import { useState } from "react";
 
 export default function App() {
+    const [showFundCard, setShowFundCard] = useState(false);
+
     return (
         <div className="relative min-h-screen overflow-hidden bg-[#0A0A0F]">
+            {/* Dropdown button in top right corner */}
+            <div className="fixed top-4 right-4 z-[9999]">
+                <button
+                    type="button"
+                    onClick={() => setShowFundCard(!showFundCard)}
+                    className="px-6 py-2 bg-transparent border border-white/20 text-white/70 hover:text-white hover:border-white/40 transition-colors duration-300 tracking-wider text-sm rounded-md"
+                >
+                    Fund
+                </button>
+                
+                {/* Dropdown content */}
+                {showFundCard && (
+                    <div className="absolute top-full right-0 mt-2 w-[400px] bg-[#0A0A0F] shadow-xl rounded-lg">
+                        <FundCardComponents />
+                    </div>
+                )}
+            </div>
+
             {/* Subtle star background */}
             <div className="absolute inset-0">
                 {Array.from({ length: 100 }, (_, i) => ({
