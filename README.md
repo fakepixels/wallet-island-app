@@ -5,7 +5,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC)
 ![OnchainKit](https://img.shields.io/badge/OnchainKit-Latest-purple)
 
-A beautifully designed web application showcasing the Coinbase Wallet integration using OnchainKit. This project demonstrates how to create an elegant, responsive interface with Web3 capabilities.
+A beautifully designed web application showcasing the wallet integration using OnchainKit. This project demonstrates how to create an elegant, responsive interface with onchain capabilities.
+
+![wi](https://github.com/user-attachments/assets/34181587-ee0b-4743-97a4-8e3b0603556f)
 
 ## ✨ Features
 
@@ -58,7 +60,7 @@ yarn dev
 - **Framework**: Next.js 13
 - **Language**: TypeScript
 - **Styling**: Tailwind CSS
-- **Web3**: OnchainKit, Coinbase Wallet
+- **Onchain**: OnchainKit, Coinbase Wallet, Base
 - **Animations**: Custom Tailwind animations
 - **Development**: ESLint, Prettier
 
@@ -90,7 +92,7 @@ wallet-island-app/
 
 - The app uses modern React features and hooks
 - Tailwind CSS is used for styling with custom animations
-- OnchainKit provides Web3 functionality
+- OnchainKit provides onchain functionality
 - The design focuses on elegance and simplicity
 
 ## 🤝 Contributing
